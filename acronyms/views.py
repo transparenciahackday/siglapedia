@@ -6,9 +6,8 @@ def fetch(request):
         q = request.GET.get('q')
         results = Acronym.objects.filter(name=q)
         if not results:
-            return render(request, 'notfound.html', {'querystring': q, 'notfound': True,
+            return render(request, 'add.html', {'querystring': q, 'notfound': True,
                                                      'form': AcronymForm(initial={'name': q})})
-
         return render(request, 'found.html', {'results': results})
         
 def add(request):
@@ -19,5 +18,5 @@ def add(request):
             return render(request, 'found.html', {'results': [acronym,]})
     else:
         form = AcronymForm(initial={'name': request.GET.get('q')})
-    return render(request, 'notfound.html', {'form': form})
+    return render(request, 'add.html', {'form': form})
 
