@@ -36,7 +36,7 @@
     
     <section class="results">   
     <h2>A sigla "{{ querystring }}" ainda não existe na nossa base de dados. Adiciona-a!</h2>
-    <form class="new" action="/adicionar">{% csrf_token %}
+    <form class="new" action="/adicionar" method="POST">{% csrf_token %}
       {{ form.as_p }}
       <input type="submit" value="Adicionar!" />
     </form>
