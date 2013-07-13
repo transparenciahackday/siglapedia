@@ -30,26 +30,16 @@
   <div id="main" role="main">
     <section id="search">
       <form method="get" action="/pesquisa/">
-        <input type="text" name="q" value="Pesquisa siglas..." class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
+        <input type="text" name="q" class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
       </form>
     </section><!-- /#search-->
     
     <section class="results">   
-      <h2>Ainda não existe. Adiciona:</h2>
-      <form>
-        <dl>
-          <dt><label>Sigla</label></dt>
-          <dd><input type="text" value=""></dd>
-          
-          <dt><label>Definição</label></dt>
-          <dd><input type="text" value=""></dd>
-          
-          <dt><label>Descrição</label></dt>
-          <dd><input type="text" value=""></dd>
-        </dl>
-        
-        <button type="submit">Adicionar Sigla</button>
-      </form>
+    <h2>A sigla "{{ querystring }}" ainda não existe na nossa base de dados. Adiciona-a!</h2>
+    <form class="new" action="/adicionar">{% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Adicionar!" />
+    </form>
     </section><!-- /.results-->
   </div>
   
