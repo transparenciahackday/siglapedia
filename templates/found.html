@@ -27,16 +27,20 @@
     <h1>Siglapedia</h1>
   </header>
   
-  <div role="main">
-    <form id="search" method="get" action="/pesquisa/">
-      <input type="text" name="q" value="Pesquisa siglas..." class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
-    </form>  
+  <div id="main" role="main">  
+    <section id="search">
+      <form method="get" action="/pesquisa/">
+        <input type="text" name="q" value="Pesquisa siglas..." class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
+      </form>
+    </section><!-- /#search-->
     
-    <h2>Resultados!!!</h2>
-    <dl>
-      <dt>S.N.S.</dt>
-      <dd>Serviço Nacional de Saúde</dd>
-    </dl>
+    <section class="results">      
+      <h2>Resultados!!!</h2>
+      <dl>
+        <dt>S.N.S.</dt>
+        <dd>Serviço Nacional de Saúde</dd>
+      </dl>
+    </section><!-- /.results-->
   </div>
   
   <footer>

@@ -27,26 +27,30 @@
     <h1>Siglapedia</h1>
   </header>
   
-  <div role="main">
-    <form id="search" method="get" action="/pesquisa/">
-      <input type="text" name="q" value="Pesquisa siglas..." class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
-    </form>  
+  <div id="main" role="main">
+    <section id="search">
+      <form method="get" action="/pesquisa/">
+        <input type="text" name="q" value="Pesquisa siglas..." class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
+      </form>
+    </section><!-- /#search-->
     
-    <h2>Ainda não existe. Adiciona:</h2>
-    <form>
-      <dl>
-        <dt><label>Sigla</label></dt>
-        <dd><input type="text" value=""></dd>
+    <section class="results">   
+      <h2>Ainda não existe. Adiciona:</h2>
+      <form>
+        <dl>
+          <dt><label>Sigla</label></dt>
+          <dd><input type="text" value=""></dd>
+          
+          <dt><label>Definição</label></dt>
+          <dd><input type="text" value=""></dd>
+          
+          <dt><label>Descrição</label></dt>
+          <dd><input type="text" value=""></dd>
+        </dl>
         
-        <dt><label>Definição</label></dt>
-        <dd><input type="text" value=""></dd>
-        
-        <dt><label>Descrição</label></dt>
-        <dd><input type="text" value=""></dd>
-      </dl>
-      
-      <button type="submit">Adicionar Sigla</button>
-    </form>
+        <button type="submit">Adicionar Sigla</button>
+      </form>
+    </section><!-- /.results-->
   </div>
   
   <footer>
