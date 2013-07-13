@@ -23,7 +23,7 @@ body {
   color: #41445d;
   position: relative;
 	height: 100%;
-	background: #fdf6b1;
+	background: #dcdde9 /*url(../img/bg.png) repeat 0 0*/;
 }
 
 header,
@@ -50,7 +50,7 @@ form {
 }
 
 input {
-  border: 1px solid #ccc;
+  border: 1px solid #9ea2cd;
   border-radius: 2px;
   padding: 6px 10px;
 }
@@ -82,9 +82,9 @@ header h1 {
 }
 
 #main #search {
-  padding: 15px 10px;
-  border: 1px solid #ccc;
-  background: #ddd;
+  padding: 15px 5px;
+  background: #fdfcdb;
+  border: 1px solid #cacbd8;
   border-radius: 2px;
 }
 
