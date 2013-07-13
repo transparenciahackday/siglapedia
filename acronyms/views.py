@@ -15,7 +15,7 @@ def add(request):
         form = AcronymForm(request.POST)
         if form.is_valid():
             acronym = form.save()
-            return render(request, 'results.html', {'results': [acronym,]})
+            return render(request, 'results.html', {'results': [acronym,], 'new_entry': True})
     else:
         form = AcronymForm(initial={'name': request.GET.get('q')})
     return render(request, 'add.html', {'form': form})
