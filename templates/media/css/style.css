@@ -1,0 +1,29 @@
+/*---------------------------------------------------
+General
+---------------------------------------------------*/
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Georgia, Times, serif;
+	font-size: 1em;
+	line-height: 1.4;
+  color: #666;
+  position: relative;
+	height: 100%;
+}
+
+/*---------------------------------------------------
+	Media Queries
+---------------------------------------------------*/
+
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+}
+
+@media all and (orientation:landscape) {
+/* Style adjustments for landscape mode goes here */
+}
+
