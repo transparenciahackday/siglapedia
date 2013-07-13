@@ -1,4 +1,9 @@
 /*---------------------------------------------------
+Fonts
+---------------------------------------------------*/
+
+
+/*---------------------------------------------------
 General
 ---------------------------------------------------*/
 
@@ -24,7 +29,7 @@ footer {
 header > h1,
 div#main > section,
 footer > p {
-		max-width: 1140px;
+		max-width: 1000px;
 		margin: 0 auto;
 		padding: 0 20px;
 }
@@ -40,6 +45,7 @@ header {
 
 header h1 {
   font-size: 40px;
+  font-family: "IstokWeb", 'Comic Sans';
 }
 
 
@@ -50,6 +56,7 @@ header h1 {
 #main #search {
   padding: 15px 10px;
   border: 1px solid #ccc;
+  background: #ddd;
   border-radius: 2px;
 }
 
@@ -58,9 +65,25 @@ input {
   border-radius: 2px;
 }
 
-#main #search inpu
+#main #search .searchbox {
+  font-size: 22px;
+  line-height: 22px;
+  display: inline-block;
+  width: 80%;
+  padding: 10px 4px 5px;
+  margin-right: 5px;
+  border: 0;
+  background: #fff;
+  position: relative;
+}
 
 
+#main #search .search-btn {
+  font-size: 22px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 10px 8px 5px;
+}
 
 
 /*---------------------------------------------------
