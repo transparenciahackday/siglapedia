@@ -1,13 +1,11 @@
-# Create your views here.
+from django.shortcuts import render_to_response
+from acronyms.models import Acronym
 
-def home(request):
-    pass
+def fetch(request):
+    if request.GET.get('q'):
+        results = Acronym.objects.filter(name=request.GET.get('q'))
+        if not results:
+            return render_to_response('notfound.html')
 
-def find_acronym(request):
-    pass
-
-def found(request):
-    pass
-
-def not_found(request):
-    pass
+        return render_to_response('found.html', {'results': results})
+        
