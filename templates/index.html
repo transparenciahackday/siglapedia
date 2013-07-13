@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
@@ -14,8 +15,8 @@
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width">
   
-  <link rel="stylesheet" media="screen" href="../static/css/reset.css" />
-  <link rel="stylesheet" media="screen" href="../static/css/style.css" />
+  <link rel="stylesheet" media="screen" href="{% static 'css/reset.css' %}" />
+  <link rel="stylesheet" media="screen" href="{% static 'css/style.css' %}" />
 </head>
 <body>
 
@@ -30,7 +31,7 @@
   <div id="main" role="main">
     <section id="search">
       <form method="get" action="/pesquisa/">
-        <input type="text" name="q" value="Pesquisa siglas..." class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
+        <input type="text" name="q" class="searchbox placeholder" /><input type="submit" class="search-btn" value="Procurar" />
       </form>
     </section><!-- /#search-->   
   </div>
