@@ -36,13 +36,13 @@
     </section><!-- /#search-->
     
     <section class="results">   
-    {% if notfound %}
-    <h2>A sigla "{{ querystring }}" ainda não existe na nossa base de dados. Adiciona-a!</h2>
-    {% endif %}
-    <form class="new" action="/adicionar/" method="POST">{% csrf_token %}
-      {{ form.as_p }}
-      <input type="submit" value="Adicionar!" />
-    </form>
+      {% if notfound %}
+      <h2>A sigla "{{ querystring }}" ainda não existe na nossa base de dados. Adiciona-a!</h2>
+      {% endif %}
+      <form class="new" action="/adicionar/" method="POST">{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Adicionar!" />
+      </form>
     </section><!-- /.results-->
   </div>
   
