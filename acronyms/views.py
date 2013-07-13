@@ -8,14 +8,14 @@ def fetch(request):
         if not results:
             return render(request, 'add.html', {'querystring': q, 'notfound': True,
                                                      'form': AcronymForm(initial={'name': q})})
-        return render(request, 'found.html', {'results': results})
+        return render(request, 'results.html', {'results': results})
         
 def add(request):
     if request.method == 'POST':
         form = AcronymForm(request.POST)
         if form.is_valid():
             acronym = form.save()
-            return render(request, 'found.html', {'results': [acronym,]})
+            return render(request, 'results.html', {'results': [acronym,]})
     else:
         form = AcronymForm(initial={'name': request.GET.get('q')})
     return render(request, 'add.html', {'form': form})
