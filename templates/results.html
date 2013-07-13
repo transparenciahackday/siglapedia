@@ -27,19 +27,23 @@
     <h1>Siglapedia</h1>
   </header>
   
-  <div id="main" role="main">
+  <div id="main" role="main">  
     <section id="search">
       <form method="get" action="/pesquisa/">
         <input type="text" name="q" class="searchbox placeholder" /><input type="submit" class="search-btn" value="Ir" />
       </form>
     </section><!-- /#search-->
     
-    <section class="results">   
-      <h2>A sigla "{{ querystring }}" ainda não existe na nossa base de dados. Adiciona-a!</h2>
-      <form class="new" action="/adicionar" method="POST">{% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Adicionar!" />
-      </form>
+    {% if new %}<h2>Já está! Obrigado por enriqueceres a Siglapedia!</h2>{% endif %}
+    <section class="results">      
+      {% for acronym in results %}
+      <dl>
+        <dt>{{ acronym.name }}</dt>
+        <dd>{{ acronym.definition }}</dd>
+        <dd>{{ acronym.description }}</dd>
+        <dd><a href="{{ acronym.link }}">{{ acronym.link }}</a></dd>
+      </dl>
+      {% endfor %}
     </section><!-- /.results-->
   </div>
   

@@ -1,11 +1,22 @@
-from django.shortcuts import render_to_response
-from acronyms.models import Acronym
+from django.shortcuts import render
+from acronyms.models import Acronym, AcronymForm
 
 def fetch(request):
     if request.GET.get('q'):
-        results = Acronym.objects.filter(name=request.GET.get('q'))
+        q = request.GET.get('q')
+        results = Acronym.objects.filter(name=q)
         if not results:
-            return render_to_response('notfound.html')
-
-        return render_to_response('found.html', {'results': results})
+            return render(request, 'add.html', {'querystring': q, 'notfound': True,
+                                                     'form': AcronymForm(initial={'name': q})})
+        return render(request, 'results.html', {'results': results})
         
+def add(request):
+    if request.method == 'POST':
+        form = AcronymForm(request.POST)
+        if form.is_valid():
+            acronym = form.save()
+            return render(request, 'results.html', {'results': [acronym,]})
+    else:
+        form = AcronymForm(initial={'name': request.GET.get('q')})
+    return render(request, 'add.html', {'form': form})
+
