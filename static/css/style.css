@@ -2,10 +2,12 @@
 Fonts
 ---------------------------------------------------*/
 
+/*
 @font-face {
-font-family: 'IstokWeb-Regular';
-src: local('IstokWeb-Regular'), url('../fonts/Istok_Web/IstokWeb-Regular.ttf') format('truetype');
+font-family: 'QuattrocentoSans';
+src: local('QuattrocentoSans'), url('../fonts/Quattrocento_Sans/QuattrocentoSans-Regular.ttf') format('truetype');
 }
+*/
 
 
 /*---------------------------------------------------
@@ -17,13 +19,17 @@ html {
 }
 
 body {
-  font-family: 'IstokWeb-Regular', Georgia, Times, serif;
+  font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
 	font-size: 1em;
 	line-height: 1.4;
   color: #41445d;
   position: relative;
 	height: 100%;
-	background: #dcdde9 /*url(../img/bg.png) repeat 0 0*/;
+	background: #dcdde9 url(../img/texture.png) repeat 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Times, serif;
 }
 
 header,
@@ -46,10 +52,11 @@ footer > p {
 ------------------------------------------------*/
 
 form {
-  color: #444;
 }
 
-input {
+input,
+textarea,
+button {
   border: 1px solid #9ea2cd;
   border-radius: 2px;
   padding: 6px 10px;
@@ -70,7 +77,6 @@ header {
 
 header h1 {
   font-size: 40px;
-  font-family: 'IstokWeb-Regular', Georgia, Times, serif;
 }
 
 
@@ -82,10 +88,7 @@ header h1 {
 }
 
 #main #search {
-  padding: 15px 5px;
-  background: #fdfcdb;
-  border: 1px solid #cacbd8;
-  border-radius: 2px;
+  padding: 15px 0;
 }
 
 #main #search .searchbox {
@@ -113,16 +116,25 @@ header h1 {
 ------------------------------------------------*/
 
 #main .results {
-  padding: 15px 10px; 
+  padding: 30px 0 15px;
+  background: rgba(255,255,255,0.4);
+  border-top: 1px solid #cacbd8;
 }
 
 #main .results h2 {
-  font-size: 18px;
+  font-size: 22px;
+  margin: 5px 30px 30px;
+}
+
+#main .results dl {
+  font-size: 20px;
+  margin: 5px 30px;
 }
 
 #main .results dt {
   display: inline-block;
   font-weight: bold;
+  letter-spacing: 1px;
   margin-right: 20px;
 }
 
@@ -134,8 +146,41 @@ header h1 {
 	Add
 ------------------------------------------------*/
 
-#main .results. new {
-  
+#main .results form {  
+  margin: 5px 30px;
+}
+
+#main .results form.new p {
+  margin: 5px 0 16px;
+  position: relative;
+}
+
+#main .results form.new label {
+  display: block;
+  font-weight: bold;
+  font-size: 90%;
+  margin-bottom: 4px;
+}
+
+#main .results form.new input,
+#main .results form.new textarea {
+  display: block;
+  width: 600px;
+}
+
+#main .results form.new .helptext {
+  font-size: 75%;
+  position: absolute;
+  top: 25px;
+  left: 640px;
+}
+
+/*---------------------------------------------------
+	Footer
+------------------------------------------------*/
+
+footer {
+  font-size: 75%;
 }
 
 
