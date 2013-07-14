@@ -1,0 +1,907 @@
+[
+    {
+        "url": "http://pt.wikipedia.org/wiki/Unidade_Central_de_Processamento",
+        "significado": "Central Processing Unit (Unidade Central de Processamento)",
+        "sigla": "CPU"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/FSB",
+        "significado": "Front Side Bus",
+        "sigla": "FSB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/USB",
+        "significado": "Universal Serial Bus (Barramento Serial Universal)",
+        "sigla": "USB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/LCD",
+        "significado": "Liquid Cristal Display (Tela de Cristal Líquido)",
+        "sigla": "LCD"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/BIOS",
+        "significado": "Basic Input Output System (Sistema Básico de Entrada e Saída) (C*)",
+        "sigla": "BIOS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Mem%C3%B3ria_ROM",
+        "significado": "Read Only Memory (Memória Apenas de Leitura)",
+        "sigla": "ROM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Mem%C3%B3ria_RAM",
+        "significado": "Random Access Memory (Memória de Acesso Aleatório)",
+        "sigla": "RAM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/POST",
+        "significado": "Power On Self Test (Teste na hora de ligar)",
+        "sigla": "POST"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Accelerated_Graphics_Port",
+        "significado": "Accelerated Graphics Port (Porta Aceleradora de Gráfico)",
+        "sigla": "AGP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Peripheral_Component_Interconnect",
+        "significado": "Peripheral Component Iinterconnect (Interconector de Componentes Periféricos)",
+        "sigla": "PCI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/ISA",
+        "significado": "Industry Standard Architecture (Indústria de Arquitetura",
+        "sigla": "ISA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/AMD",
+        "significado": "Advanced Micro Devices (Peças avançadas de computadores)",
+        "sigla": "AMD"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/IBM",
+        "significado": "International Business Machines (Conhecida empresa americana do ramo da informática)",
+        "sigla": "IBM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Disco_r%C3%ADgido",
+        "significado": "Hard Disk (Disco rígido)",
+        "sigla": "HD"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/BGP",
+        "significado": "Border Gateway Protocol",
+        "sigla": "BGP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/FTP",
+        "significado": "File Transfer Protocol (Protocolo de Transferência de Arquivos)",
+        "sigla": "FTP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/HTTP",
+        "significado": "HyperText Transfer Protocol (Protocolo de Transferência de HiperTexto)",
+        "sigla": "HTTP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/IMAP",
+        "significado": "Internet Message Access Protocol (Protocolo de Acesso a Mensagem de Internet)",
+        "sigla": "IMAP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Protocolo_de_Internet",
+        "significado": "Internet Protocol",
+        "sigla": "IP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Modelo_OSI",
+        "significado": "Open Systems Interconection",
+        "sigla": "OSI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/POP3",
+        "significado": "Post Office Protocol (Protocolo de Correio)",
+        "sigla": "POP3"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SBP",
+        "significado": "Serial Bus Protocol (Protocolo do Barramento Serial)",
+        "sigla": "SBP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SNMP",
+        "significado": "Simple Network Management Protocol (Protocolo simples de gerenciamento de rede)",
+        "sigla": "SNMP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SMTP",
+        "significado": "Simple Mail Transfer Protocol (Protocolo de Transferência de Mensagens)",
+        "sigla": "SMTP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/TCP",
+        "significado": "Transmission Control Protocol",
+        "sigla": "TCP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Protocolo_UDP",
+        "significado": "User Datagram Protocol",
+        "sigla": "UDP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/WWW",
+        "significado": "World Wide Web (Rede de abrangência Mundial)",
+        "sigla": "WWW"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/ASCII",
+        "significado": "American Standard Code for Information Interchange (Código padrão americano para troca de informações)",
+        "sigla": "ASCII"
+    },
+    {
+        "url": "http://pt.wikipedia.org/w/index.php?title=CGM&action=edit&redlink=1",
+        "significado": "Computer Graphics Metafile (Arquivo de gráficos de computador)",
+        "sigla": "CGM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/w/index.php?title=FITS&action=edit&redlink=1",
+        "significado": "Flexible Image Transport System (Sistema de transporte de imagem flexíveis)",
+        "sigla": "FITS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/GIF",
+        "significado": "Graphics Interchange Format (Formato de troca rápida de gráficos)",
+        "sigla": "GIF"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/JPEG",
+        "significado": "Joint Photographic Experts Group (Grupo expert de junção de fotografias)",
+        "sigla": "JPEG"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/MP3",
+        "significado": "MPEG audio Layer-3 (Camada de áudio MPEG nº3)",
+        "sigla": "MP3"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/MPEG",
+        "significado": "Moving Picture Experts Group (Grupo expert de movimentação de imagens)",
+        "sigla": "MPEG"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/PNG",
+        "significado": "Portable Network Graphics (Gráficos portáteis de rede)",
+        "sigla": "PNG"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SVG",
+        "significado": "Scalable Vector Graphics",
+        "sigla": "SVG"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/TIFF",
+        "significado": "Tagged Image File Format",
+        "sigla": "TIFF"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/PDF",
+        "significado": "Portable Document Format (Formato de documento portátil)",
+        "sigla": "PDF"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/GNU",
+        "significado": "GNU is Not Unix (recursivo)",
+        "sigla": "GNU"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/GUI",
+        "significado": "Graphical User Interface (Interface de Usuário Gráfica)",
+        "sigla": "GUI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/CUI",
+        "significado": "Command-line User Interface (Interface de Usuário por Linha de Comando)",
+        "sigla": "CUI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Ag%C3%AAncia_Espacial_Europeia",
+        "significado": "European Space Agency (Agência Espacial Europeia)",
+        "sigla": "ESA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Ag%C3%AAncia_Nacional_de_Telecomunica%C3%A7%C3%B5es",
+        "significado": "Agência Nacional de Telecomunicações",
+        "sigla": "ANATEL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Ag%C3%AAncia_Central_de_Intelig%C3%AAncia",
+        "significado": "Central Intelligence Agency (Agência Central de Inteligência dos EUA)",
+        "sigla": "CIA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Espacial_Internacional",
+        "significado": "International Space Station (Estação Espacial Internacional)",
+        "sigla": "ISS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/FAB",
+        "significado": "Força Aérea Brasileira",
+        "sigla": "FAB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_das_Na%C3%A7%C3%B5es_Unidas_para_a_Alimenta%C3%A7%C3%A3o_e_a_Agricultura",
+        "significado": "Food and Agriculture Organization Organização das Nações Unidas para a Alimentação e a Agricultura)",
+        "sigla": "FAO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/For%C3%A7a_Expedicion%C3%A1ria_Brasileira",
+        "significado": "Força Expedicionária Brasileira",
+        "sigla": "FEB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/FBI",
+        "significado": "Federal Bureau of Investigation (Escritório Federal de Investigação dos EUA)",
+        "sigla": "FBI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Gestapo",
+        "significado": "Geheime Staatspolizei (Polícia secreta do estado)",
+        "sigla": "Gestapo"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Guarda_Nacional_Republicana",
+        "significado": "Guarda Nacional Republicana",
+        "sigla": "GNR"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/IEEE",
+        "significado": "Institute of Electrical and Electronics Engineers (Instituto de Engenheiros Eletricistas e Eletrônicos)",
+        "sigla": "IEEE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/INATEL_(FNAT)",
+        "significado": "Instituto Nacional para Aproveitamento dos Tempos Livres (Actividades socio-culturais).",
+        "sigla": "INATEL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/INATEL",
+        "significado": "Instituto Nacional de Telecomunicações",
+        "sigla": "INATEL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/INEM",
+        "significado": "Instituto Nacional de Emergência Médica",
+        "sigla": "INEM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Interpol",
+        "significado": "International Police (Polícia Internacional)",
+        "sigla": "Interpol"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/KGB",
+        "significado": "Komitet Gosudarstvenno Bezopasnosti (Comitê de Segurança do Estado da antiga União Soviética)",
+        "sigla": "KGB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/NASA",
+        "significado": "National Aeronautics and Space Administration",
+        "sigla": "NASA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/OEA",
+        "significado": "Organização dos Estados Americanos",
+        "sigla": "OEA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_do_Tratado_do_Atl%C3%A2ntico_Norte",
+        "significado": "North Atlantic Treaty Organization (Organização do Tratado do Atlântico Norte, OTAN)",
+        "sigla": "NATO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/OIT",
+        "significado": "Organização Internacional do Trabalho",
+        "sigla": "OIT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/OMS",
+        "significado": "Organização Mundial de Saúde",
+        "sigla": "OMS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/OMT",
+        "significado": "Organização Mundial do Turismo",
+        "sigla": "OMT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/ONU",
+        "significado": "Organização das Nações Unidas.",
+        "sigla": "ONU"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/OTAN",
+        "significado": "Organização do Tratado do Atlântico Norte",
+        "sigla": "OTAN"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/PIDE",
+        "significado": "Polícia Internacional de Defesa do Estado",
+        "sigla": "PIDE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/PRF",
+        "significado": "Polícia Rodoviária Federal",
+        "sigla": "PRF"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Pol%C3%ADcia_de_Seguran%C3%A7a_P%C3%BAblica",
+        "significado": "Polícia de Segurança Pública",
+        "sigla": "PSP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SIS",
+        "significado": "Serviço de Informações e Segurança",
+        "sigla": "SIS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sindicato_dos_Professores_da_Zona_Sul",
+        "significado": "Sindicato dos Professores da Zona Sul",
+        "sigla": "SPZS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SWAT",
+        "significado": "Special Weapons And Tatics (Armas e Táticas Especiais)",
+        "sigla": "SWAT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/UE",
+        "significado": "União Europeia",
+        "sigla": "UE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/FIFA",
+        "significado": "Fédération Internationale de Football Association",
+        "sigla": "FIFA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Portuguesa_de_Futebol",
+        "significado": "Federação Portuguesa de Futebol",
+        "sigla": "FPF"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Ga%C3%BAcha_de_Futebol_Sete_Society",
+        "significado": "Federação Gaúcha de Futebol Sete Society",
+        "sigla": "FGFSS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Gr%C3%AAmio_Foot-Ball_Porto_Alegrense",
+        "significado": "Grêmio Foot-Ball Porto Alegrense",
+        "sigla": "GFBPA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/w/index.php?title=Hoquei_Clube_de_Braga&action=edit&redlink=1",
+        "significado": "Hóquei Clube de Braga",
+        "sigla": "HCB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/MLB",
+        "significado": "Major League Baseball (Principal Liga de Beisebol)",
+        "sigla": "MLB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/NBA",
+        "significado": "National Basketball Association (Liga Nacional de Basquetebol)",
+        "sigla": "NBA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/NFL",
+        "significado": "National Football League (Liga Nacional de Futebol Americano)",
+        "sigla": "NFL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Paran%C3%A1_Clube",
+        "significado": "Paraná Clube",
+        "sigla": "PRC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Paulista_Futebol_Clube",
+        "significado": "Paulista Futebol Clube",
+        "sigla": "PFC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sporting_Clube_de_Portugal",
+        "significado": "Sporting Clube de Portugal",
+        "sigla": "SCP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/w/index.php?title=SCBM&action=edit&redlink=1",
+        "significado": "Sporting Clube Beira Mar",
+        "sigla": "SCBM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SCCP",
+        "significado": "Sport Clube Corinthians Paulista",
+        "sigla": "SCCP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sport_Club_Internacional",
+        "significado": "Sport Club Internacional",
+        "sigla": "SCI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras",
+        "significado": "Sociedade Esportiva Palmeiras",
+        "sigla": "SEP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Santos_Futebol_Clube",
+        "significado": "Santos Futebol Clube",
+        "sigla": "SFC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sport_Lisboa_e_Benfica",
+        "significado": "Sport Lisboa e Benfica.",
+        "sigla": "SLB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/SPFC",
+        "significado": "São Paulo Futebol Clube",
+        "sigla": "SPFC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Vit%C3%B3ria_Futebol_Clube",
+        "significado": "Vitória Futebol Clube (Vitória de Setúbal)",
+        "sigla": "VFC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Vit%C3%B3ria_Sport_Clube",
+        "significado": "Vitória Sport Club de Guimarães",
+        "sigla": "VSC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/w/index.php?title=CDOM&action=edit&redlink=1",
+        "significado": "Clube Desportivo Olivais e Moscavide",
+        "sigla": "CDOM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/PSC",
+        "significado": "Paysandu Sport Club",
+        "sigla": "PSC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Acre",
+        "significado": "Acre",
+        "sigla": "AC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Alagoas",
+        "significado": "Alagoas",
+        "sigla": "AL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Amazonas",
+        "significado": "Amazonas",
+        "sigla": "AM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Amap%C3%A1",
+        "significado": "Amapá",
+        "sigla": "AP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Bahia",
+        "significado": "Bahia",
+        "sigla": "BA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Cear%C3%A1",
+        "significado": "Ceará",
+        "sigla": "CE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)",
+        "significado": "Distrito Federal",
+        "sigla": "DF"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Esp%C3%ADrito_Santo_(estado)",
+        "significado": "Espírito Santo",
+        "sigla": "ES"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Goi%C3%A1s",
+        "significado": "Goiás",
+        "sigla": "GO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Maranh%C3%A3o",
+        "significado": "Maranhão",
+        "sigla": "MA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Minas_Gerais",
+        "significado": "Minas Gerais",
+        "sigla": "MG"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul",
+        "significado": "Mato Grosso do Sul",
+        "sigla": "MS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Mato_Grosso",
+        "significado": "Mato Grosso",
+        "sigla": "MT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Par%C3%A1",
+        "significado": "Pará",
+        "sigla": "PA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Para%C3%ADba",
+        "significado": "Paraíba",
+        "sigla": "PB"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Pernambuco",
+        "significado": "Pernambuco",
+        "sigla": "PE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Piau%C3%AD",
+        "significado": "Piauí",
+        "sigla": "PI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Paran%C3%A1",
+        "significado": "Paraná",
+        "sigla": "PR"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Rio_de_Janeiro",
+        "significado": "Rio de Janeiro",
+        "sigla": "RJ"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Rio_Grande_do_Norte",
+        "significado": "Rio Grande do Norte",
+        "sigla": "RN"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Rond%C3%B4nia",
+        "significado": "Rondônia",
+        "sigla": "RO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Roraima",
+        "significado": "Roraima",
+        "sigla": "RR"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Rio_Grande_do_Sul",
+        "significado": "Rio Grande do Sul",
+        "sigla": "RS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Santa_Catarina",
+        "significado": "Santa Catarina",
+        "sigla": "SC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sergipe",
+        "significado": "Sergipe",
+        "sigla": "SE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/S%C3%A3o_Paulo",
+        "significado": "São Paulo",
+        "sigla": "SP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Tocantins",
+        "significado": "Tocantins",
+        "sigla": "TO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Alabama",
+        "significado": "Alabama",
+        "sigla": "AL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Alasca",
+        "significado": "Alasca",
+        "sigla": "AK"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Arizona",
+        "significado": "Arizona",
+        "sigla": "AZ"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Arkansas",
+        "significado": "Arkansas",
+        "sigla": "AR"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Calif%C3%B3rnia",
+        "significado": "Califórnia",
+        "sigla": "CA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Colorado",
+        "significado": "Colorado",
+        "sigla": "CO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Connecticut",
+        "significado": "Connecticut",
+        "sigla": "CT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Delaware",
+        "significado": "Delaware",
+        "sigla": "DE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Fl%C3%B3rida",
+        "significado": "Flórida",
+        "sigla": "FL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Ge%C3%B3rgia_(Estados_Unidos)",
+        "significado": "Geórgia",
+        "sigla": "GA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Hawaii",
+        "significado": "Hawaii",
+        "sigla": "HI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Idaho",
+        "significado": "Idaho",
+        "sigla": "ID"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Illinois",
+        "significado": "Illinois",
+        "sigla": "IL"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Indiana",
+        "significado": "Indiana",
+        "sigla": "IN"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Iowa",
+        "significado": "Iowa",
+        "sigla": "IA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Kansas",
+        "significado": "Kansas",
+        "sigla": "KS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Kentucky",
+        "significado": "Kentucky",
+        "sigla": "KY"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Louisiana",
+        "significado": "Louisiana",
+        "sigla": "LA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Maine",
+        "significado": "Maine",
+        "sigla": "ME"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Maryland",
+        "significado": "Maryland",
+        "sigla": "MD"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Massachusetts",
+        "significado": "Massachusetts",
+        "sigla": "MA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Michigan",
+        "significado": "Michigan",
+        "sigla": "MI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Minnesota",
+        "significado": "Minnesota",
+        "sigla": "MN"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Mississippi",
+        "significado": "Mississippi",
+        "sigla": "MS"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Missouri",
+        "significado": "Missouri",
+        "sigla": "MO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Montana",
+        "significado": "Montana",
+        "sigla": "MT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Nebraska",
+        "significado": "Nebraska",
+        "sigla": "NE"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Nevada",
+        "significado": "Nevada",
+        "sigla": "NV"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Nova_Hampshire",
+        "significado": "Nova Hampshire",
+        "sigla": "NH"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Nova_Jersey",
+        "significado": "Nova Jersey",
+        "sigla": "NJ"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Novo_M%C3%A9xico",
+        "significado": "Novo México",
+        "sigla": "NM"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Nova_Iorque_(estado)",
+        "significado": "Nova Iorque",
+        "sigla": "NY"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Carolina_do_Norte",
+        "significado": "North Carolina (Carolina do Norte)",
+        "sigla": "NC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Dakota_do_Norte",
+        "significado": "North Dakota (Dakota do Norte)",
+        "sigla": "ND"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Ohio",
+        "significado": "Ohio",
+        "sigla": "OH"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Oklahoma",
+        "significado": "Oklahoma",
+        "sigla": "OK"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Oregon",
+        "significado": "Oregon",
+        "sigla": "OR"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Pensilv%C3%A2nia",
+        "significado": "Pensilvânia",
+        "sigla": "PA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Rhode_Island",
+        "significado": "Rhode Island",
+        "sigla": "RI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Carolina_do_Sul",
+        "significado": "South Carolina (Carolina do Sul)",
+        "sigla": "SC"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Dakota_do_Sul",
+        "significado": "South Dakota (Dakota do Sul)",
+        "sigla": "SD"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Tennessee",
+        "significado": "Tennessee",
+        "sigla": "TN"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Texas",
+        "significado": "Texas",
+        "sigla": "TX"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Utah",
+        "significado": "Utah",
+        "sigla": "UT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Vermont",
+        "significado": "Vermont",
+        "sigla": "VT"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Virg%C3%ADnia",
+        "significado": "Virgínia",
+        "sigla": "VA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Washington",
+        "significado": "Washington",
+        "sigla": "WA"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Virg%C3%ADnia_Ocidental",
+        "significado": "West Virginia (Virgínia Ocidental)",
+        "sigla": "WV"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Wisconsin",
+        "significado": "Wisconsin",
+        "sigla": "WI"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Wyoming",
+        "significado": "Wyoming",
+        "sigla": "WY"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Classifica%C3%A7%C3%A3o_Brasileira_de_Ocupa%C3%A7%C3%B5es",
+        "significado": "Classificação Brasileira de Ocupações",
+        "sigla": "CBO"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/CDD",
+        "significado": "Classificação Decimal de Dewey",
+        "sigla": "CDD"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Classifica%C3%A7%C3%A3o_decimal_universal",
+        "significado": "Classificação Decimal Universal",
+        "sigla": "CDU"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/C%C3%B3digo_postal",
+        "significado": "Código de Endereçamento Postal",
+        "sigla": "CEP"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/CID",
+        "significado": "Classificação Internacional de Doenças",
+        "sigla": "CID"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/CID-10",
+        "significado": "Classificação Internacional de Doenças - 10ª edição 2",
+        "sigla": "CID-10"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Laser",
+        "significado": "Light Amplification by Stimulated Emission of Radiation (Amplificação da Luz por Emissão Estimulada de Radiação);",
+        "sigla": "Laser"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Maser",
+        "significado": "Magnetic Amplification through Stimulated Emission of Radiation (Amplificação Magnética por Emissão Estimulada de Radiação);",
+        "sigla": "Maser"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Radar",
+        "significado": "RAdio Detection And Ranging (Detecção e Telemetria por Rádio);",
+        "sigla": "Radar"
+    },
+    {
+        "url": "http://pt.wikipedia.org/wiki/Sonar",
+        "significado": "SOund Navigation And Ranging (Navegação e Telemetria por Som).",
+        "sigla": "Sonar"
+    }
+]
