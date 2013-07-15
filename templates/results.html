@@ -35,14 +35,16 @@
       </form>
     </section><!-- /#search-->
     
-    {% if new_entry %}<h2>Já está! Obrigado por enriqueceres a Siglapedia!</h2>{% endif %}
     <section class="results">      
+    {% if new_entry %}<h2>Já está! Obrigado por enriqueceres a Siglapédia!</h2>{% endif %}
       {% for acronym in results %}
       <dl>
         <dt>{{ acronym.name }}</dt>
         <dd>{{ acronym.definition }}</dd>
         <dd>{{ acronym.description }}</dd>
-        <dd><a href="{{ acronym.link }}">{{ acronym.link }}</a></dd>
+        {% if acronym.link %}
+        <dd>[<a href="{{ acronym.link }}">{% if 'wikipedia' in acronym.link %}Wikipédia{% else %}link{% endif %}</a>]</dd>
+        {% endif %}
       </dl>
       {% endfor %}
     </section><!-- /.results-->
