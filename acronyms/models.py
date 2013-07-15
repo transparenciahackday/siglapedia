@@ -9,6 +9,9 @@ class Acronym(models.Model):
     description = models.TextField("Descrição", help_text="O que é esta entidade? (opcional) Descreve-a com uma frase. A Wikipédia ajuda!", max_length=5000, blank=True)
     link = models.URLField("Link", help_text="Link para obter mais informação sobre esta sigla (opcional). Nós gostamos de links da Wikipédia em vez de links institucionais, sempre que possível.", blank=True)
 
+    def __unicode__(self):
+        return self.name
+
 class AcronymForm(ModelForm):
     class Meta:
         model = Acronym
