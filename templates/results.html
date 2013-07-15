@@ -42,7 +42,9 @@
         <dt>{{ acronym.name }}</dt>
         <dd>{{ acronym.definition }}</dd>
         <dd>{{ acronym.description }}</dd>
+        {% if acronym.link %}
         <dd>[<a href="{{ acronym.link }}">{% if 'wikipedia' in acronym.link %}Wikipédia{% else %}link{% endif %}</a>]</dd>
+        {% endif %}
       </dl>
       {% endfor %}
     </section><!-- /.results-->
