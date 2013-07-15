@@ -25,11 +25,16 @@ body {
   color: #41445d;
   position: relative;
 	height: 100%;
-	background: #dcdde9 url(../img/texture.png) repeat 0 0;
+	background: #dcdde9 url(../img/bg.png) repeat 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #296A46;
 }
 
 header,
@@ -55,15 +60,18 @@ form {
 }
 
 input,
-textarea,
-button {
-  border: 1px solid #9ea2cd;
+textarea {
+  border: 1px solid #e4da8a;
   border-radius: 2px;
-  padding: 6px 10px;
+  padding: 5px;
 }
 
+button,
 input[type="submit"] {
-  background: #ccc;
+  border: 0;
+  padding: 5px 10px;
+  background: #296A46;
+  color: #fafae5;
 }
 
 
@@ -89,6 +97,7 @@ header h1 {
 
 #main #search {
   padding: 15px 0;
+  background: #296A46;
 }
 
 #main #search .searchbox {
@@ -97,7 +106,7 @@ header h1 {
   display: inline-block;
   width: 80%;
   padding: 10px 4px 5px;
-  margin-right: 5px;
+  margin: 0 5px 0 20px;
   border: 0;
   background: #fff;
   position: relative;
@@ -118,7 +127,6 @@ header h1 {
 #main .results {
   padding: 30px 0 15px;
   background: rgba(255,255,255,0.4);
-  border-top: 1px solid #cacbd8;
 }
 
 #main .results h2 {
