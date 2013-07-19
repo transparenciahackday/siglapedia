@@ -1,10 +1,17 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+from django.core import serializers
 from acronyms.models import Acronym, AcronymForm
 
 def fetch(request):
-    if request.GET.get('q'):
-        q = request.GET.get('q')
+    q = request.GET.get('q')
+    if q and request.GET.get('format') == "json":
         results = Acronym.objects.filter(name=q)
+        jsondata = serializers.serialize('json', results, ensure_ascii=False, 
+                fields=("name", "definition", "description", "link"))
+        return HttpResponse(jsondata, mimetype="application/json")
+    elif q:
+        results = list(Acronym.objects.filter(name=q))
         if not results:
             return render(request, 'add.html', {'querystring': q, 'notfound': True,
                                                      'form': AcronymForm(initial={'name': q})})
