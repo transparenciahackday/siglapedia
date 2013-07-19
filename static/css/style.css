@@ -15,76 +15,31 @@ General
 ---------------------------------------------------*/
 
 html {
-  height: 100%;
 }
 
 body {
-  font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
-	font-size: 1em;
-	line-height: 1.4;
   color: #41445d;
-  position: relative;
-	height: 100%;
 	background: #dcdde9 url(../img/bg.png) repeat 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, Times, serif;
 }
 
 a {
-  text-decoration: none;
   color: #296A46;
 }
 
-header,
-div#main,
-footer {  
-		padding: 10px 0 20px;
+.container {
+  background: rgba(255,255,255,0.4);
+  margin-top: 20px;
 }
-
-header > h1,
-div#main > section,
-footer > p {
-		max-width: 1000px;
-		margin: 0 auto;
-		padding: 0 20px;
-}
-
-
-/*---------------------------------------------------
-	General styles for forms
-------------------------------------------------*/
-
-form {
-}
-
-input,
-textarea {
-  border: 1px solid #e4da8a;
-  border-radius: 2px;
-  padding: 5px;
-}
-
-button,
-input[type="submit"] {
-  border: 0;
-  padding: 5px 10px;
-  background: #296A46;
-  color: #fafae5;
-}
-
 
 /*---------------------------------------------------
 	Header
 ------------------------------------------------*/
 
-header {
-  margin: 20px 0 0;
-}
-
-header h1 {
-  font-size: 40px;
+.header {
+  margin: 20px 0 20px;
 }
 
 
@@ -92,103 +47,35 @@ header h1 {
 	Search
 ------------------------------------------------*/
 
-#main {
+#search {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
-#main #search {
-  padding: 15px 0;
-  background: #296A46;
-}
-
-#main #search .searchbox {
-  font-size: 22px;
-  line-height: 22px;
-  display: inline-block;
-  width: 80%;
-  padding: 10px 4px 5px;
-  margin: 0 5px 0 20px;
-  border: 0;
-  background: #fff;
-  position: relative;
-}
-
-
-#main #search .search-btn {
-  font-size: 22px;
-  line-height: 22px;
-  display: inline-block;
-  padding: 10px 8px 5px;
-}
 
 /*---------------------------------------------------
 	Results
 ------------------------------------------------*/
 
-#main .results {
-  padding: 30px 0 15px;
-  background: rgba(255,255,255,0.4);
-}
-
-#main .results h2 {
-  font-size: 22px;
-  margin: 5px 30px 30px;
-}
-
-#main .results dl {
-  font-size: 20px;
-  margin: 5px 30px;
-}
-
-#main .results dt {
-  display: inline-block;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-right: 20px;
-}
-
-#main .results dd {
-  display: inline-block;
-}
 
 /*---------------------------------------------------
 	Add
 ------------------------------------------------*/
 
-#main .results form {  
-  margin: 5px 30px;
-}
-
-#main .results form.new p {
-  margin: 5px 0 16px;
-  position: relative;
-}
-
-#main .results form.new label {
-  display: block;
+#main #results form label {
   font-weight: bold;
+}
+
+#main #results form .helptext {
   font-size: 90%;
-  margin-bottom: 4px;
-}
-
-#main .results form.new input,
-#main .results form.new textarea {
-  display: block;
-  width: 600px;
-}
-
-#main .results form.new .helptext {
-  font-size: 75%;
-  position: absolute;
-  top: 25px;
-  left: 640px;
 }
 
 /*---------------------------------------------------
 	Footer
 ------------------------------------------------*/
 
-footer {
-  font-size: 75%;
+.footer {
+  margin-top: 15px;
 }
 
 
