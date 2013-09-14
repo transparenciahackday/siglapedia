@@ -66,8 +66,15 @@ a {
   font-weight: bold;
 }
 
-#main #results form .helptext {
+#main #results form input,
+#main #results form textarea {
+  width: 356px;
+}
+
+#main #results form .help-inline {
   font-size: 90%;
+  width: 356px;
+	vertical-align: top;
 }
 
 /*---------------------------------------------------
@@ -75,7 +82,9 @@ a {
 ------------------------------------------------*/
 
 .footer {
-  margin-top: 15px;
+  margin-top: 40px;
+	padding-top: 20px;
+	border-top: 1px solid #ddd;
 }
 
 

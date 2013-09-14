@@ -31,16 +31,21 @@
     <div id="main" role="main">       
       <section id="search">
         <form class="form-inline" method="get" action="/pesquisa/">
-          <input type="text" name="q" class="placeholder" /><input type="submit" class="btn" value="Procurar" />
+
+          <input type="text" name="q" class="placeholder span3" id="appendedInputButton" /><input type="submit" class="btn" value="Procurar" />
         </form>
       </section><!-- /#search-->
       <section id="results">   
         {% if notfound %}
         {% if user.is_authenticated %}
         <h3>A sigla "{{ querystring }}" ainda não existe na nossa base de dados. Adiciona-a!</h3>
-        <form class="form-horizontal" action="/adicionar/" method="POST">{% csrf_token %}
-          {{ form.as_p }}
-          <input class="btn btn-block" type="submit" value="Adicionar!" />
+        <form class="form" action="/adicionar/" method="POST">{% csrf_token %}
+					{% for field in form %}
+          	{{ field.errors }}
+          		<label class="control-label">{{ field.label }}</label>
+							{{ field }} <span class="help-inline">{{ field.help_text }}</span>
+    			{% endfor %}
+          <p><input class="btn" type="submit" value="Adicionar!" /></p>
         </form>
         {% else %}
         <h3>A sigla "{{ querystring }}" não existe na nossa base de dados.</h3>
